@@ -10,7 +10,7 @@ import (
 )
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Restful API using Go and Cassandra!")
+	fmt.Fprintf(w, "Restful API using Go and Cassandra!")   
 }
 
 func CreateStudent(w http.ResponseWriter, r *http.Request) {

@@ -6,3 +6,4 @@ type Student struct {
 	Lastname  string `json:"Lastname"`
 	Age       int    `json:"Age"`
 }
+  

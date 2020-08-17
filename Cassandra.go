@@ -9,7 +9,7 @@ import (
 var Session *gocql.Session
 
 func init() {
-	var err error
+	var err error 
 	cluster := gocql.NewCluster("127.0.0.1")
 	cluster.Keyspace = "restfulapi"
 	Session, err = cluster.CreateSession()
